@@ -1,0 +1,55 @@
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.para-2 {
+  color: white;
+  padding: 0.8rem 0rem;
+  letter-spacing: 0.2px;
+}
+
+.para-3 {
+  color: white;
+  padding: 0.8rem 6rem 0.8rem 0rem;
+  letter-spacing: 0.2px;
+}
+
+.shop-now {
+  color: white;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+/* responsive header */
+
+@media screen and (max-width: 870px) {
+  .para-2 {
+    font-size: 12px;
+    padding: 1.2rem 0rem;
+  }
+
+  .para-3 {
+    font-size: 12px;
+    padding: 1.2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .para-2 {
+    font-size: 8px;
+    padding: 1rem 1rem;
+  }
+
+  .para-3 {
+    font-size: 8px;
+    padding: 1rem 2rem;
+  }
+
+  .shop-now {
+    margin-left: 0.5rem;
+  }
+}

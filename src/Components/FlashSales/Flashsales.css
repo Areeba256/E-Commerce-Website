@@ -1,0 +1,55 @@
+.flashSaleMain {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.flashSalesContainer {
+  width: 80%;
+}
+
+.timerheading {
+  font-size: 20px;
+}
+
+.flashsales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.headings {
+  display: flex;
+  align-items: center;
+}
+
+.timer {
+  margin-left: 5rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.colon {
+  color: red;
+  font-weight: bold;
+}
+
+.today {
+  display: flex;
+  align-items: center;
+  width: 8%;
+  justify-content: space-between;
+}
+
+.todayText {
+  color: #db4444;
+  font-weight: bold;
+}
+
+.sidedec {
+  height: 40px;
+  width: 16px;
+  background-color: #db4444;
+  border-radius: 4px;
+}

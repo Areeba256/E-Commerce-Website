@@ -1,0 +1,40 @@
+.hero-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section-main {
+  display: flex;
+  width: 80%;
+}
+
+.filter {
+  height: 45vh;
+  width: 25%;
+  margin-top: 2rem;
+  border-right: 2px solid #e4e4e4;
+}
+
+.slider {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 40vh;
+  width: 75%;
+}
+
+.filterlinks {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.filterlinks a {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
+.filterlinks a:hover {
+  color: #503f3f;
+}

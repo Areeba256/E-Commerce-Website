@@ -1,0 +1,176 @@
+/*----------Hamburger Menu------------------------*/
+
+.navbar-container-mobile {
+  display: none;
+}
+
+.navbar-mobile {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-main-mobile {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #d9d9d9;
+  position: relative;
+}
+
+.hamburger-main i {
+  font-family: 24px;
+}
+
+.showhamburgerdiv {
+  position: absolute;
+  top: 0%;
+  right: -65%;
+  background-color: #e4e4e4;
+  display: none;
+  width: 100vw;
+}
+
+.link-div-mobile {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.6rem;
+}
+
+.nav-links-mobile {
+  margin-bottom: 0.6rem;
+  text-decoration: none;
+  color: #1b1b1b;
+  padding: 0.6rem 0.6rem 0.8rem 0.6rem;
+}
+
+.input-mobile input {
+  font-family: "Poppins";
+  padding: 0.8rem 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background-color: #f5f5f5;
+  width: 50%;
+  margin-left: 0.6rem;
+}
+
+.icons-mobile {
+  padding: 0.6rem;
+  margin: 0.8rem 0rem 0.8rem 0rem;
+}
+
+.icons-mobile i {
+  font-size: 22px;
+}
+
+.shoppingMenu {
+  margin-left: 0.5rem;
+}
+
+.mobile-top-main {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid #b69797;
+}
+
+.cross-icon {
+  font-size: 24px;
+  margin-right: 0.5rem;
+}
+
+.logo-div-mobile {
+  font-size: 0.7rem;
+}
+
+/*----------Navbar------------------------*/
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  border-bottom: 0.5px solid #d9d9d9;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-main {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-div h2 {
+  font-size: 30px;
+}
+.input-and-icons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  margin-left: 4rem;
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  text-decoration: 1px solid #1b1b1b;
+}
+
+.icons {
+  margin-left: 1rem;
+}
+
+.icons i {
+  margin-left: 1.5rem;
+  font-size: 26px;
+}
+
+.input input {
+  font-family: "Poppins";
+  padding: 0.8rem 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-main {
+    width: 90%;
+  }
+
+  .nav-links {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-main {
+    width: 95%;
+  }
+
+  .nav-links {
+    margin-left: 1rem;
+  }
+
+  .icons i {
+    margin-left: 0.8rem;
+  }
+
+  .icons {
+    margin-left: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navbar-container {
+    display: none;
+  }
+
+  .navbar-container-mobile {
+    display: block;
+  }
+}
